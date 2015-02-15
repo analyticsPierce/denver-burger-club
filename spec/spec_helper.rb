@@ -1,8 +1,11 @@
 require "webmock/rspec"
+require "capybara/rspec"
+require "capybara/rails"
 
 # http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
-  config.expect_with :rspec do |expectations|
+   config.include Rails.application.routes.url_helpers
+   config.expect_with :rspec do |expectations|
     expectations.syntax = :expect
   end
 
