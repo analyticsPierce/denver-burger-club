@@ -24,6 +24,8 @@ gem "simple_form"
 gem "title"
 gem "uglifier"
 gem "unicorn"
+gem "haml"
+gem "haml-rails"
 
 group :development do
   gem "spring"
@@ -43,6 +45,7 @@ end
 
 group :test do
   gem "capybara-webkit", ">= 1.2.0"
+  gem "capybara"
   gem "database_cleaner"
   gem "formulaic"
   gem "launchy"
