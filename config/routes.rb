@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root 'reviews#index'
+  root "reviews#index"
 end
