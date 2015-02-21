@@ -12,6 +12,7 @@ gem "high_voltage"
 gem "i18n-tasks"
 gem "jquery-rails"
 gem "neat", "~> 1.5.1"
+gem "bitters"
 gem "newrelic_rpm"
 gem "normalize-rails", "~> 3.0.0"
 gem "pg"
@@ -55,5 +56,6 @@ group :test do
 end
 
 group :staging, :production do
-  gem "rails_stdout_logging"
+ gem "rails_serve_static_assets"
+ gem "rails_stdout_logging"
 end
