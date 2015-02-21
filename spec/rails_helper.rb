@@ -4,6 +4,8 @@ require File.expand_path("../../config/environment", __FILE__)
 
 require "rspec/rails"
 require "shoulda/matchers"
+require "capybara/rspec"
+require "capybara/rails"
 
 Dir[Rails.root.join("spec/support/**/*.rb")].each { |file| require file }
 
@@ -13,6 +15,7 @@ module Features
 end
 
 RSpec.configure do |config|
+  config.include Rails.application.routes.url_helpers
   config.include Features, type: :feature
   config.infer_base_class_for_anonymous_controllers = false
   config.infer_spec_type_from_file_location!

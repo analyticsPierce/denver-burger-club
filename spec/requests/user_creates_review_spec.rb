@@ -1,4 +1,4 @@
-require "spec_helper.rb"
+require "rails_helper.rb"
 
 feature "user can create reviews" do
   scenario "viewing the reviews" do
@@ -8,9 +8,11 @@ feature "user can create reviews" do
   end
 
   scenario "adds a review" do
+    FactoryGirl.create(:restaurant) 
+    FactoryGirl.create(:judge)
     visit new_review_path
-    fill_in "review[restaurant]", with: "Squeaky Bean"
-    fill_in "review[judge]", with: "Lord Voldemort"
+    select "The Squeaky Bean", from: "review_restaurant_id"
+    select "Lord Voldemort", from: "review_judge_id"
     fill_in "review[meat_done]", with: 5  
     fill_in "review[meat_flavor]", with: 6
     fill_in "review[bun]", with: 9
