@@ -1,0 +1,26 @@
+<header class="centered-navigation" role="banner">
+  <div class="centered-navigation-wrapper">
+    <a href="javascript:void(0)" class="mobile-logo">
+      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="Logo image">
+    </a>
+    <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
+    <nav role="navigation">
+      <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
+        <li class="nav-link"><a href="/">denver burger club</a></li>
+        <li class="nav-link logo">
+          <a href="/" class="logo">
+            <%= image_tag("hamburger-black-and-white_small.png") %>
+          </a>
+        </li>
+        <li class="nav-link more" id="restaurants"><a href="/restaurants/">restaurants</a>
+          <ul class="submenu">
+            <% Restaurant.reviewed_restaurants.each do |restaurant| %>
+              <li><%= link_to restaurant.name, restaurant %></li>
+            <% end %>
+          </ul>
+        </li>
+        <li class="nav-link"><a href="/login/">login</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
