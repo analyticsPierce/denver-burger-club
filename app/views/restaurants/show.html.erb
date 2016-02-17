@@ -1,0 +1,18 @@
+<h1>Review for <%= @restaurant.name %><h1>
+
+<div class="address">address : <%= @restaurant.street_address %> <br/>
+  city / state / zip : <%= @restaurant.city %>, <%= @restaurant.state %> <%= @restaurant.zip %> <br/>
+  site / phone : <%= @restaurant.site %> / <%= @restaurant.phone_number %>
+</div>
+
+<div class="review_date">
+  review date : <%= @restaurant.review_date %>
+</div>
+
+<div class="comments">comments: <br/>
+  <ul>
+    <% @reviews.each do |review| %>
+      <li><%= review.comment %></li>
+    <% end %>
+  </ul>
+</div>
