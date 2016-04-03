@@ -1,0 +1,1164 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+/* line 9, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 19, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 45, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 57, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+/* line 78, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+/* line 99, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 110, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 119, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 127, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 136, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 145, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 154, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 163, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 170, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sup {
+  top: -0.5em;
+}
+
+/* line 174, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 185, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 193, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 204, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 212, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 232, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 256, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 293, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+/* line 356, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 368, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 376, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 387, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 396, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 405, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 416, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 422, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/normalize-rails-3.0.3/vendor/assets/stylesheets/normalize-rails/normalize.css */
+td,
+th {
+  padding: 0;
+}
+
+/* line 2, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Bitters 0.10.0
+ * http://bitters.bourbon.io
+ * Copyright 2013–2014 thoughtbot, inc.
+ * MIT License */
+/* line 1, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/extends/_button.scss */
+button,
+input[type="submit"] {
+  -webkit-font-smoothing: antialiased;
+  background-color: #477dca;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0.75em 1em;
+  text-decoration: none;
+}
+/* line 13, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/extends/_button.scss */
+button:hover,
+input[type="submit"]:hover {
+  background-color: #2c5999;
+  color: white;
+}
+/* line 18, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/extends/_button.scss */
+button:disabled,
+input[type="submit"]:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* line 1, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+  color: #333333;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* line 15, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  line-height: 1.25;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 22, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+h1 {
+  font-size: 2.25em;
+}
+
+/* line 26, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+h2 {
+  font-size: 2em;
+}
+
+/* line 30, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+h3 {
+  font-size: 1.75em;
+}
+
+/* line 34, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+h4 {
+  font-size: 1.5em;
+}
+
+/* line 38, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+h5 {
+  font-size: 1.25em;
+}
+
+/* line 42, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+h6 {
+  font-size: 1em;
+}
+
+/* line 46, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+p {
+  margin: 0 0 0.75em;
+}
+
+/* line 50, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+a {
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  color: #477dca;
+  text-decoration: none;
+}
+/* line 55, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+a:hover {
+  color: #2c5999;
+}
+/* line 59, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+a:active, a:focus {
+  color: #2c5999;
+  outline: none;
+}
+
+/* line 65, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+hr {
+  border-bottom: 1px solid #dddddd;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 1.5em 0;
+}
+
+/* line 74, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}
+
+/* line 79, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+blockquote {
+  border-left: 2px solid #dddddd;
+  color: #595959;
+  margin: 1.5em 0;
+  padding-left: 0.75em;
+}
+
+/* line 86, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+cite {
+  color: #737373;
+  font-style: italic;
+}
+/* line 90, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_typography.scss */
+cite:before {
+  content: "\2014 \00A0";
+}
+
+/* line 1, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_forms.scss */
+fieldset {
+  background: #f7f7f7;
+  border: 1px solid #dddddd;
+  margin: 0 0 0.75em 0;
+  padding: 1.5em;
+}
+
+/* line 10, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_forms.scss */
+input,
+label,
+select {
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1em;
+}
+
+/* line 16, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_forms.scss */
+label {
+  font-weight: bold;
+  margin-bottom: 0.375em;
+}
+/* line 20, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_forms.scss */
+label.required:after {
+  content: "*";
+}
+/* line 24, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_forms.scss */
+label abbr {
+  display: none;
+}
+
+/* line 31, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_forms.scss */
+textarea,
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"],
+select[multiple=multiple] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: border-color;
+  -moz-transition: border-color;
+  transition: border-color;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #dddddd;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1em;
+  margin-bottom: 0.75em;
+  padding: 0.5em 0.5em;
+  width: 100%;
+}
+/* line 44, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_forms.scss */
+textarea:hover,
+input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
+select[multiple=multiple]:hover {
+  border-color: #c4c4c4;
+}
+/* line 48, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_forms.scss */
+textarea:focus,
+input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
+select[multiple=multiple]:focus {
+  border-color: #477dca;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
+  outline: none;
+}
+
+/* line 55, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_forms.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 59, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+/* line 64, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: 0.375em;
+}
+
+/* line 69, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_forms.scss */
+input[type="file"] {
+  padding-bottom: 0.75em;
+  width: 100%;
+}
+
+/* line 74, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_forms.scss */
+select {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+  width: auto;
+}
+
+/* line 1, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_tables.scss */
+table {
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* line 8, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_tables.scss */
+th {
+  border-bottom: 1px solid #b7b7b7;
+  font-weight: bold;
+  padding: 0.75em 0;
+  text-align: left;
+}
+
+/* line 15, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_tables.scss */
+td {
+  border-bottom: 1px solid #dddddd;
+  padding: 0.75em 0;
+}
+
+/* line 22, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_tables.scss */
+tr,
+td,
+th {
+  vertical-align: middle;
+}
+
+/* line 2, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_lists.scss */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 20, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_lists.scss */
+dl {
+  margin-bottom: 0.75em;
+}
+/* line 23, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_lists.scss */
+dl dt {
+  font-weight: bold;
+  margin-top: 0.75em;
+}
+/* line 28, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_lists.scss */
+dl dd {
+  margin: 0;
+}
+
+/* line 2, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/base/_buttons.scss */
+button,
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* line 26, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/refills/_flashes.scss */
+.flash-alert {
+  background-color: #fff6bf;
+  color: #8c7800;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.75em;
+  padding: 0.75em;
+  text-align: center;
+}
+/* line 16, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/refills/_flashes.scss */
+.flash-alert a {
+  color: #594c00;
+}
+/* line 20, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/refills/_flashes.scss */
+.flash-alert a:focus, .flash-alert a:hover {
+  color: black;
+}
+
+/* line 30, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/refills/_flashes.scss */
+.flash-error {
+  background-color: #fbe3e4;
+  color: #96151b;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.75em;
+  padding: 0.75em;
+  text-align: center;
+}
+/* line 16, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/refills/_flashes.scss */
+.flash-error a {
+  color: #6a0f13;
+}
+/* line 20, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/refills/_flashes.scss */
+.flash-error a:focus, .flash-error a:hover {
+  color: #110203;
+}
+
+/* line 34, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/refills/_flashes.scss */
+.flash-notice {
+  background-color: #e5edf8;
+  color: #264d85;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.75em;
+  padding: 0.75em;
+  text-align: center;
+}
+/* line 16, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/refills/_flashes.scss */
+.flash-notice a {
+  color: #1b365d;
+}
+/* line 20, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/refills/_flashes.scss */
+.flash-notice a:focus, .flash-notice a:hover {
+  color: #04080e;
+}
+
+/* line 38, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/refills/_flashes.scss */
+.flash-success {
+  background-color: #e6efc2;
+  color: #56651a;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.75em;
+  padding: 0.75em;
+  text-align: center;
+}
+/* line 16, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/refills/_flashes.scss */
+.flash-success a {
+  color: #333c10;
+}
+/* line 20, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/refills/_flashes.scss */
+.flash-success a:focus, .flash-success a:hover {
+  color: black;
+}
+
+/* line 1, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation {
+  background-color: #333333;
+  border-bottom: 1px solid #242424;
+  min-height: 60px;
+  width: 100%;
+  z-index: 9999;
+}
+/* line 31, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation .mobile-logo {
+  display: inline;
+  float: left;
+  max-height: 60px;
+  padding-left: 1em;
+}
+/* line 37, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation .mobile-logo img {
+  max-height: 60px;
+  opacity: 0.6;
+  padding: 0.8em 0;
+}
+@media screen and (min-width: 53.75em) {
+  /* line 31, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation .mobile-logo {
+    display: none;
+  }
+}
+/* line 48, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation .centered-navigation-mobile-menu {
+  color: rgba(221, 221, 221, 0.7);
+  display: block;
+  float: right;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 0;
+  padding-right: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 53.75em) {
+  /* line 48, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation .centered-navigation-mobile-menu {
+    display: none;
+  }
+}
+/* line 64, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation .centered-navigation-mobile-menu:focus, .centered-navigation .centered-navigation-mobile-menu:hover {
+  color: #dddddd;
+}
+/* line 71, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation .centered-navigation-wrapper {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 999;
+}
+/* line 15, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-3.2.4/app/assets/stylesheets/addons/_clearfix.scss */
+.centered-navigation .centered-navigation-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 15, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-3.2.4/app/assets/stylesheets/addons/_clearfix.scss */
+.centered-navigation .centered-navigation-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 78, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation ul.centered-navigation-menu {
+  -webkit-transform-style: preserve-3d;
+  clear: both;
+  display: none;
+  margin: 0 auto;
+  overflow: visible;
+  padding: 0;
+  width: 100%;
+  z-index: 99999;
+}
+/* line 88, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation ul.centered-navigation-menu.show {
+  display: block;
+}
+@media screen and (min-width: 53.75em) {
+  /* line 78, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation ul.centered-navigation-menu {
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 53.75em) {
+  /* line 100, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation .nav-link:first-child {
+    margin-left: 2.2em;
+  }
+}
+/* line 106, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation ul li.nav-link {
+  background: #333333;
+  display: block;
+  line-height: 60px;
+  overflow: hidden;
+  padding-right: 1em;
+  text-align: right;
+  width: 100%;
+  z-index: 9999;
+}
+/* line 116, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation ul li.nav-link a {
+  color: rgba(221, 221, 221, 0.7);
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+}
+/* line 123, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation ul li.nav-link a:focus, .centered-navigation ul li.nav-link a:hover {
+  color: #dddddd;
+}
+@media screen and (min-width: 53.75em) {
+  /* line 106, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation ul li.nav-link {
+    background: transparent;
+    display: inline;
+    line-height: 60px;
+  }
+  /* line 133, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation ul li.nav-link a {
+    padding-right: 1em;
+  }
+}
+/* line 139, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation li.logo.nav-link {
+  display: none;
+  line-height: 0;
+}
+@media screen and (min-width: 53.75em) {
+  /* line 139, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation li.logo.nav-link {
+    display: inline;
+  }
+}
+/* line 148, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation .logo img {
+  margin-bottom: -0.66667em;
+  max-height: 2em;
+  opacity: 0.6;
+}
+/* line 156, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation li.more.nav-link {
+  padding-right: 0;
+}
+@media screen and (min-width: 53.75em) {
+  /* line 156, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation li.more.nav-link {
+    padding-right: 1em;
+  }
+}
+/* line 163, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation li.more.nav-link > ul > li:first-child a {
+  padding-top: 1em;
+}
+/* line 167, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation li.more.nav-link a {
+  margin-right: 1em;
+}
+/* line 171, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation li.more.nav-link > a {
+  padding-right: 0.6em;
+}
+/* line 175, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation li.more.nav-link > a:after {
+  position: absolute;
+  top: auto;
+  right: -0.4em;
+  bottom: auto;
+  left: auto;
+  color: rgba(221, 221, 221, 0.7);
+  content: "\25BE";
+}
+/* line 182, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation li.more {
+  overflow: visible;
+  padding-right: 0;
+}
+/* line 186, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation li.more a {
+  padding-right: 1em;
+}
+/* line 190, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation li.more > a {
+  padding-right: 1.6em;
+  position: relative;
+}
+@media screen and (min-width: 53.75em) {
+  /* line 190, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation li.more > a {
+    margin-right: 1em;
+  }
+}
+/* line 198, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation li.more > a:after {
+  content: "›";
+  font-size: 1.2em;
+  position: absolute;
+  right: 0.5em;
+}
+/* line 207, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation li.more:focus > .submenu, .centered-navigation li.more:hover > .submenu {
+  display: block;
+}
+@media screen and (min-width: 53.75em) {
+  /* line 182, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation li.more {
+    padding-right: 1em;
+    position: relative;
+  }
+}
+/* line 217, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation ul.submenu {
+  display: none;
+  padding-left: 0;
+}
+@media screen and (min-width: 53.75em) {
+  /* line 217, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation ul.submenu {
+    left: -1em;
+    position: absolute;
+    top: 1.5em;
+  }
+}
+@media screen and (min-width: 53.75em) {
+  /* line 227, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation ul.submenu .submenu {
+    left: 11.8em;
+    top: 0;
+  }
+}
+/* line 234, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation ul.submenu li {
+  display: block;
+  padding-right: 0;
+}
+@media screen and (min-width: 53.75em) {
+  /* line 234, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation ul.submenu li {
+    line-height: 46.15385px;
+  }
+  /* line 241, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation ul.submenu li:first-child > a {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  /* line 246, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation ul.submenu li:last-child > a {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding-bottom: 0.7em;
+  }
+}
+/* line 253, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+.centered-navigation ul.submenu li a {
+  background-color: #2b2b2b;
+  display: inline-block;
+  text-align: right;
+  text-decoration: none;
+  width: 100%;
+}
+@media screen and (min-width: 53.75em) {
+  /* line 253, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_centered_navigation.css.scss */
+  .centered-navigation ul.submenu li a {
+    background-color: #333333;
+    padding-left: 1em;
+    text-align: left;
+    width: 12em;
+  }
+}
+
+/* line 1, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_review_form.css.scss */
+.review_form {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 40.29137%;
+  margin-left: 25.58941%;
+}
+/* line 15, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-3.2.4/app/assets/stylesheets/addons/_clearfix.scss */
+.review_form:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 38, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.review_form:last-child {
+  margin-right: 0;
+}
+
+/* line 1, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_home_page.css.scss */
+.home_page {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-left: 25.58941%;
+}
+/* line 15, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-3.2.4/app/assets/stylesheets/addons/_clearfix.scss */
+.home_page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 38, /Users/jasonpierce/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.home_page:last-child {
+  margin-right: 0;
+}
+
+/* line 1, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_restaurant.css.scss */
+.address {
+  padding: 10px;
+  font-size: 22px;
+}
+
+/* line 6, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_restaurant.css.scss */
+.review_date {
+  padding: 10px;
+  font-size: 22px;
+}
+
+/* line 11, /Users/jasonpierce/projects/denver-burger-club/app/assets/stylesheets/_restaurant.css.scss */
+.comments {
+  padding: 10px;
+  font-size: 22px;
+}
