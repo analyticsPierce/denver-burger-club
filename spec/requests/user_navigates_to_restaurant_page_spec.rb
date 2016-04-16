@@ -13,6 +13,4 @@ feature "user can navigate to a restaurant page" do
     expect(current_path) == "/restaurants/the-squeaky-bean/"
     expect(page).to have_content("Review for The Squeaky Bean")
   end
-
 end
-
