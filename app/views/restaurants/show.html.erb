@@ -14,14 +14,15 @@
 </div>
 
 <div class="lists">
-  meat doneness: <%= @reviews.average(:meat_done) %> <br/>
-  meat flavor: <%= @reviews.average(:meat_flavor) %><br/>
-  bun: <%= @reviews.average(:bun) %><br/>
-  toppings: <%= @reviews.average(:toppings) %><br/>
-  sides: <%= @reviews.average(:sides) %><br/>
-  presentation: <%= @reviews.average(:presentation) %><br/>
-  service: <%= @reviews.average(:service) %><br/>
-  atmosphere: <%= @reviews.average(:atmosphere) %><br/>
+  <!-- TODO truncate averages to tenths -->
+  meat doneness: <%= average_format(@reviews.average(:meat_done)) %> <br/>
+  meat flavor: <%= average_format(@reviews.average(:meat_flavor)) %><br/>
+  bun: <%= average_format(@reviews.average(:bun)) %><br/>
+  toppings: <%= average_format(@reviews.average(:toppings)) %><br/>
+  sides: <%= average_format(@reviews.average(:sides)) %><br/>
+  presentation: <%= average_format(@reviews.average(:presentation)) %><br/>
+  service: <%= average_format(@reviews.average(:service)) %><br/>
+  atmosphere: <%= average_format(@reviews.average(:atmosphere)) %><br/>
 </div>
 
 <div class="headline">
@@ -30,6 +31,8 @@
 
 <div class="lists">
   <ul>
+    <!-- TODO add bullets, no idea why they are not showing up -->
+    <!-- TODO make this div about 800 px wide to wrap text  -->
     <% @reviews.each do |review| %>
       <li><%= review.comment %></li>
     <% end %>

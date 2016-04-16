@@ -2,7 +2,7 @@ require "rails_helper.rb"
 
 feature "user can navigate to a restaurant page" do
   scenario "views a restaurant page" do
-    FactoryGirl.create(:restaurant) 
+    create :review
     visit root_path
 
     within('#restaurants'){
