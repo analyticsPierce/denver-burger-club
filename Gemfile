@@ -53,6 +53,7 @@ group :test do
   gem "shoulda-matchers", require: false
   gem "timecop"
   gem "webmock"
+  gem "codeclimate-test-reporter", require: nil
 end
 
 group :staging, :production do
