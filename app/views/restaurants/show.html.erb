@@ -14,7 +14,6 @@
 </div>
 
 <div class="lists">
-  <!-- TODO truncate averages to tenths -->
   meat doneness: <%= average_format(@reviews.average(:meat_done)) %> <br/>
   meat flavor: <%= average_format(@reviews.average(:meat_flavor)) %><br/>
   bun: <%= average_format(@reviews.average(:bun)) %><br/>

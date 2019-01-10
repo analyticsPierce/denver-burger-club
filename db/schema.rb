@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150323160853) do
+ActiveRecord::Schema.define(version: 20160604174142) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -51,9 +51,18 @@ ActiveRecord::Schema.define(version: 20150323160853) do
     t.string   "zip"
     t.string   "email_addr"
     t.date     "review_date"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
     t.string   "slug"
+    t.decimal  "avg_bun"
+    t.decimal  "avg_meat_done"
+    t.decimal  "avg_meat_flavor"
+    t.decimal  "avg_toppings"
+    t.decimal  "avg_sides"
+    t.decimal  "avg_presentation"
+    t.decimal  "avg_service"
+    t.decimal  "avg_atmosphere"
+    t.decimal  "avg_overall"
   end
 
   add_index "restaurants", ["slug"], name: "index_restaurants_on_slug", using: :btree

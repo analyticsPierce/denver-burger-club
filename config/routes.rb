@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root "reviews#index"
+  root "summaries#index"
   resources :reviews
 
   resources :restaurants
